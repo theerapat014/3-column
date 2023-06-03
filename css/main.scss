@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    
+}
+body{
+    .main_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        
+        .Fist_column{
+            width: 20rem;
+	        height: 35rem;
+	        margin: none;
+	        background: hsl(31, 77%, 52%);
+	        float: left;
+            padding-top: 5vh;
+            padding-left: 5vh;
+            border-radius: 20px 0 0 20px;
+            
+            
+           
+            
+        }
+        .Secren_column{
+            width: 20rem;
+	        height: 35rem;
+	        margin: none;
+	        background: hsl(184, 100%, 22%);
+	        float: left;
+            padding-top: 5vh;
+            padding-left: 5vh;
+            
+        }
+        .therd_column{
+            width: 20rem;
+	        height: 35rem;
+	        margin: none;
+	        background:hsl(179, 100%, 13%);
+	        float: left;
+            padding-top: 5vh;
+            padding-left: 5vh;
+            border-radius: 0 20px 20px 0;
+        }
+        button {
+            font-family: 'Lexend Deca', sans-serif;
+            width: 150px;
+            height: 50px;
+            border-radius: 50px;
+            border: none;
+            margin-top: 90px;
+            
+        }
+        .bt-fist{
+            color:hsl(31, 77%, 52%); ;
+        }
+        .bt-secren{
+            color: hsl(184, 100%, 22%);
+        }
+        .bt-therd{
+            color:hsl(179, 100%, 13%) ;
+        }
+        
+        br{
+            margin: 5px;
+        }
+        img{
+            margin-bottom: 2vh;
+        }
+        h2{
+            color: hsl(0, 0%, 95%);
+            font-family: 'Big Shoulders Display', cursive;
+            font-size: 40px;
+            
+        }
+        p{
+            font-family: Lexend Deca;
+            color: hsla(0, 0%, 100%, 0.75);
+            font-size: 15px;
+        }
+        button:hover.bt-fist{
+            color: white;
+            background-color: hsl(31, 77%, 52%);
+            border: 2px solid white;
+            cursor: pointer;
+        }
+        
+        button:hover.bt-secren {
+            color: white;
+            background-color: hsl(184, 100%, 22%);
+            border: 2px solid white;
+            cursor: pointer;
+        }
+        
+        button:hover.bt-therd {
+            color: white;
+            background-color: hsl(179, 100%, 13%);
+            border: 2px solid white;
+            cursor: pointer;
+        }
+    }
+}
